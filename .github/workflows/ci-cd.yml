@@ -26,5 +26,4 @@ jobs:
         run: npm test
 
       - name: Build Docker image
-        run: docker build -t 
-    automated-cicd-pipeline:latest .
+        run: docker build -t automated-cicd-pipeline:latest .
